@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         float length = Float.parseFloat(l);
         float width = Float.parseFloat(w);
         float height = Float.parseFloat(h);
+        String boxes = "";
         Log.d("MainActivity" ,boxes +"");
         if(length <= 23){
             if (width <= 14){

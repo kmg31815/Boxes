@@ -36,6 +36,22 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(this, Result1Activity.class);
                     intent.putExtra("Boxes",boxes);
                     startActivity(intent);
+                }else if (length <= 39.5){
+                    if (width <= 27.5){
+                        if (height <= 23){
+                            Intent intent = new Intent(this, Result2Activity.class);
+                            intent.putExtra("Boxes" , boxes);
+                            startActivity(intent);
+                        }
+                    }
+                }
+            }else if (length <= 39.5){
+                if (width <= 27.5){
+                    if (height <= 23){
+                        Intent intent = new Intent(this, Result2Activity.class);
+                        intent.putExtra("Boxes" , boxes);
+                        startActivity(intent);
+                    }
                 }
             }
         }else if (length <= 39.5){
